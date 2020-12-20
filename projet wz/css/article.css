@@ -1,0 +1,59 @@
+.article {
+    margin: 40px;
+    color: #f1f1f1;
+}
+.article .joueursdelasemaine .titrea h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: underline overline;
+    text-align: center;
+    padding-top: 60px;
+}
+.article .joueursdelasemaine .textea {
+    margin-top: 50px;
+}
+.article .joueursdelasemaine .textea h3 {
+    font-size: 25px;
+    letter-spacing: 2;
+    padding-top: 80px;
+
+}
+.article .joueursdelasemaine .textea .mbappearticle{
+    width: 234px;
+    height: 266px;
+    float: left;
+    margin-right: 40px;
+    padding-bottom: 30px;
+}
+
+
+.article .derniermatch .titredr h1 {
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: underline overline;
+    text-align: center;
+    padding-top: 60px;
+}
+.article .derniermatch .textedr .compo {
+    width: 1200px;
+    height: 675px;
+    float: left;
+    margin-right: 40px;
+    padding-bottom: 30px;
+    margin-top: 40px;
+}
+.article .derniermatch .textedr .suede {
+    font-size: 40px;
+    margin-left: 20px;
+    text-decoration: underline ;
+    padding-top: 50px;
+    font-weight: 200;
+}
+.article .derniermatch .textedr .suedeinfo {
+    font-size: 20px;
+    padding-left: 30px;
+    text-decoration: none ;
+    padding-top: 20px;
+    font-weight: normal;
+}

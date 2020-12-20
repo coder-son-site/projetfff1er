@@ -1,0 +1,46 @@
+.header {
+	width: 100%;
+	margin-right: 0;
+	margin-left: 0;
+	height: 70px;
+	line-height: 70px;
+	position: fixed;
+	top: 0;
+    z-index: 5000;
+    background-color: black;
+    opacity: 0.85;
+}
+.header .header-logo {
+	color: #f1f1f1;
+	font-family: 'Montserrat'; 
+	float: left;
+	margin-left: 30px;
+    opacity: 1;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+}
+.header .header-logo:hover {
+    text-decoration: underline;
+    font-size: 22px;
+}
+.header .header-menu {
+	float: right;
+	margin-right: 30px;
+	opacity: 23;
+}
+.header .header-menu a {
+	margin-right: 25px;
+	color: #f1f1f1; 
+    opacity: 1;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+}
+.header .header-menu a:hover {
+	text-decoration: underline; 
+    opacity: 1;
+    font-size: 22px;
+}

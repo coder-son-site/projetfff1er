@@ -1,0 +1,245 @@
+* {
+	margin: 0;
+}
+body {
+	background-color: black;
+}
+.fin {
+	height: 100px;
+	width: 100%;
+	background-color: black;
+}
+.goal {
+	padding-top: 70px;
+	color: blue;
+	padding-left: 43%;
+	font-size: 50px;
+	text-decoration: underline overline;
+}
+.Defenseurs {
+	padding-top: 650px;
+	color: blue;
+	padding-left: 40%;
+	font-size: 50px;
+	text-decoration: underline overline;
+}
+
+.Milieu {
+	padding-top: 1300px;
+	color: blue;
+	padding-left: 42%;
+	font-size: 50px;
+	text-decoration: underline overline;
+}
+
+.container {
+    position: relative;
+    margin-left: 10%;
+}
+.container .card {
+	font-family: 'Nunito', sans-serif;
+	float: left;
+	position: relative;
+	width: 320px;
+	height: 450px;
+	background-color: #232323;
+	margin: 20px;
+	margin-top: 110px;
+}
+.container .card::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: blue;
+	clip-path: circle(150px at 80% 20%);
+	transition: 0.5s ease-in-out;
+}
+.container .card:hover:before{
+	clip-path: circle(300px at 20% -20%);
+}
+.container .card:after{
+	font-family: 'Nunito', sans-serif;
+	position: absolute;
+	top: 37%;
+	left: 0%;
+	font-size: 12em;
+	font-weight: 800;
+	font-style: italic;
+	color: rgba(255, 255, 255, 0.04);
+}
+.container .card .numero{
+	position: absolute;
+	top: -60%;
+	left: 40%;
+	font-size: 10em;
+	font-weight: 800;
+	font-style: italic;
+	color: rgb(51, 46, 46);
+	opacity: 0.5;
+}
+.container .card:hover .numero{
+	transition: 0.5s;
+	display: none;
+}
+.container .card .imgbx{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 500;
+	width: 100%;
+	height: 220px;
+	transition: 0.5s;
+}
+.container .card .imgbx .img {
+	width: 220px;
+	margin-left: 50px;
+	top: 50%;
+	left: 50%;
+	z-index: 500;
+}
+.container .card:hover .imgbx{
+	top: 0%;
+	transform: translateY(0%);
+}
+.container .card .contentbx {
+	position: absolute;
+	bottom: O;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	transition: 1s;
+	z-index: 10;
+}
+.container .card:hover .contentbx {
+	height: 210px;
+}
+.container .card .contentbx h2 {
+	position: relative;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: #f1f1f1;
+}
+.container .card .contentbx .agetbx {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 20px;
+	transition: 0.5s;
+	opacity: 0;
+	visibility: hidden;
+}
+.container .card .contentbx .agetbx h3 {
+	color: #f1f1f1;
+	font-weight: 300;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2;
+	margin-right: 10px;
+
+}
+.container .card .contentbx .agetbx span {
+	width: 45Px;
+	height: 26px;
+	text-align: center;
+	line-height: 26px;
+	font-size: 14px;
+	display: inline-block;
+	color: #f1f1f1;
+}
+.container .card .contentbx .taille {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 20px;
+	transition: 0.5s;
+	opacity: 0;
+	visibility: hidden;
+}
+.container .card .contentbx .taille h3 {
+	color: #f1f1f1;
+	font-weight: 300;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2;
+	margin-right: 10px;
+
+}
+.container .card .contentbx .taille span {
+	width: 26Px;
+	height: 26px;
+	text-align: center;
+	line-height: 26px;
+	font-size: 14px;
+	display: inline-block;
+	color: #f1f1f1;
+}
+.container .card:hover .contentbx .taille {
+	opacity: 1;
+	visibility: visible;
+	transition-delay: 0.2s;
+}
+.container .card:hover .contentbx .agetbx {
+	opacity: 1;
+	visibility: visible;
+	transition-delay: 0.2s;
+}
+
+.container .card .contentbx .CDM {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 20px;
+	transition: 0.5s;
+	opacity: 0;
+	visibility: hidden;
+}
+.container .card .contentbx .CDM h3 {
+	color: #f1f1f1;
+	font-weight: 300;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2;
+	margin-right: 10px;
+
+}
+.container .card .contentbx .CDM span {
+	width: 26Px;
+	height: 26px;
+	text-align: center;
+	line-height: 26px;
+	font-size: 14px;
+	display: inline-block;
+	color: #f1f1f1;
+}
+.container .card:hover .contentbx .CDM {
+	opacity: 1;
+	visibility: visible;
+	transition-delay: 0.2s;
+}
+
+
+
+
+.footer {
+    margin-top: 1200px;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+    text-decoration: none;
+    margin-bottom: 0px;
+}
+.footer a {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
